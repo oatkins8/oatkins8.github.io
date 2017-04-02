@@ -1,0 +1,31 @@
+
+/*example of an element selector*/
+body{
+	background-color: rgba(92, 161, 234, 0.38);
+	background-image: url("../img/giphy-downsized-large.gif");
+	background-repeat: repeat-x;
+
+}
+
+.align-top{
+	width: 120px;
+    height: 80px;
+}
+
+.card{
+   	margin-top: 20px;
+}
+
+.card-title{
+	font-family: pacifico;
+	margin-top: 10px;
+}
+
+.profile-image {
+ 	max-width: 100%;
+ }
+
+.brighton-video {
+	max-width: 100%
+	margin-top: 10px;
+}
