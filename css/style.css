@@ -2,9 +2,22 @@
 /*example of an element selector*/
 body{
 	background-color: rgba(92, 161, 234, 0.38);
+	
+
+}
+
+.html{
+	height: 100%
+}
+
+.profile-body{
 	background-image: url("../img/giphy-downsized-large.gif");
 	background-repeat: repeat-x;
+}
 
+.index-body{
+	height: 100%;
+	
 }
 
 .align-top{
@@ -14,15 +27,31 @@ body{
 
 .card{
    	margin-top: 20px;
+   
 }
+
 
 .card-title{
 	font-family: pacifico;
 	margin-top: 10px;
+	color: #24c368;
 }
+
+.card-text{
+	color: white;
+	text-align: center;
+}
+.card-block-1{
+	background-image: url(../img/giphy.gif);
+	font-color: white;
+}
+
+
 
 .profile-image {
  	max-width: 100%;
+ 	border-radius: 150%;
+
  }
 
 .brighton-video {
@@ -30,6 +59,27 @@ body{
 	margin-top: 10px;
 }
 
+.icon-1{
+	margin-right: 10px
+}
+
+.icon-2{
+	margin-right: 10px
+}
+
 .icons{
 	margin-left:  33%;
+}
+
+.jumbo-text{
+	margin-top: 100px
+
+}
+
+.text-center{
+	background-image: url("../img/giphy-1.gif");
+	background-size: cover;
+  	color: white;
+  	height: 100%;
+  	font-size: 150%
 }
